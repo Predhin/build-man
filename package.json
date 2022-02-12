@@ -1,9 +1,8 @@
 {
   "name": "@predhin/build-man",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Your build partner",
   "main": "index.js",
-  "dist": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

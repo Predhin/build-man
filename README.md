@@ -46,9 +46,11 @@ buildman --dist='./dist/build-man-usage' --main='main.js' --archiveFilepath='./d
 ```
 ![Screenshot Of command](./assets/cmd_run.png)
 
-![Screensht of file details](./assets/file-details.png)
+![Screensht of file details](./assets/file_details.png)
 
 ![Screenshot of archive](./assets/archive.png)
+
+![Screenshot of application](./assets/app_run.png)
 
 ## License
 
