@@ -1,6 +1,6 @@
 {
-  "name": "build-man",
-  "version": "1.0.0",
+  "name": "@predhin/build-man",
+  "version": "1.0.2",
   "description": "Your build partner",
   "main": "index.js",
   "dist": {},
@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "build number generator", "build utility", "generate app version", "generate artifact"
+    "build number generator",
+    "build utility",
+    "generate app version",
+    "generate artifact"
   ],
   "bin": {
     "buildman": "/bin/buildman.js"
@@ -18,12 +21,14 @@
   "repository": {
     "url": "https://github.com/Predhin/build-man"
   },
-  "devDependencies": {
-    "adm-zip": "^0.5.9",
+  "dependencies": {
     "archiver": "^5.3.0",
-    "replace": "^1.2.1",
     "replace-in-file": "^6.3.2",
-    "yargs": "^17.3.1",
-    "zip-lib": "^0.7.2"
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

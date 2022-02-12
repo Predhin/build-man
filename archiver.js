@@ -1,9 +1,5 @@
 const archiver = require("archiver");
-const path = require("path");
 const fs = require("fs");
-const zl = require("zip-lib");
-const AdmZip = require('adm-zip');
-
 
 module.exports = class Archiver {
     constructor(distFolder, archiveFilepath) {

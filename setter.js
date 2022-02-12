@@ -1,4 +1,3 @@
-const fs = require('fs');
 const replace = require('replace-in-file');
 module.exports = class Setter {
     constructor(versionNo, distFolder, mainFile) {
