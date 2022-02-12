@@ -1,0 +1,29 @@
+{
+  "name": "build-man",
+  "version": "1.0.0",
+  "description": "Your build partner",
+  "main": "index.js",
+  "dist": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "build number generator", "build utility", "generate app version", "generate artifact"
+  ],
+  "bin": {
+    "buildman": "/bin/buildman.js"
+  },
+  "author": "Predhin Tom Sapru <predhin@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Predhin/build-man"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.9",
+    "archiver": "^5.3.0",
+    "replace": "^1.2.1",
+    "replace-in-file": "^6.3.2",
+    "yargs": "^17.3.1",
+    "zip-lib": "^0.7.2"
+  }
+}
