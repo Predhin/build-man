@@ -17,7 +17,7 @@ There are two ways to provide the app version to the package. The first part of 
 
 This package should be used as a post build script after the build is generated. Currently there are two utilities that this package offers:
 
-1. Associate version to a build
+1. Associate version to a build, it even creates a .version file which contains the version and also adds a console.log of the version.
 2. Zip the build files to create a single artifact file
 
 ```
@@ -34,6 +34,8 @@ Lets look at each arguments:
 
 ```--build_no :``` Provide the build no which needs to be associated to the build. This property is optional
 
+## References
+
 An example of the usage is as below:
 
 ![Screenshot](./assets/npm_script.png)
@@ -42,10 +44,11 @@ The command ```buildman``` should be available to be used after the installation
 ```
 buildman --dist='./dist/build-man-usage' --main='main.js' --archiveFilepath='./dist/artifact.zip'
 ```
+![Screenshot Of command](./assets/cmd_run.png)
 
-## TODO
+![Screensht of file details](./assets/file-details.png)
 
-* Based on your sugestions!
+![Screenshot of archive](./assets/archive.png)
 
 ## License
 
