@@ -38,8 +38,16 @@ An example of the usage is as below:
 
 ![Screenshot](./assets/npm_script.png)
 
-The command ```buildman``` should be availble to be used after the installation.
+The command ```buildman``` should be available to be used after the installation.
 ```
 buildman --dist='./dist/build-man-usage' --main='main.js' --archiveFilepath='./dist/artifact.zip'
 ```
+
+## TODO
+
+* Based on your sugestions!
+
+## License
+
+### MIT
 
